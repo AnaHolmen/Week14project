@@ -1,12 +1,17 @@
 import React from "react";
 import Movie from "./Movie";
+import { moviesArray } from "./Data";
 
-const MovieList = ({ movies }) => (
-  <div>
-    {movies.map((movie) => (
-      <Movie key={movie.id} {...movie} />
-    ))}
-  </div>
-);
+function MovieLists() {
+  console.log(moviesArray);
 
-export default MovieList;
+  return (
+    <div>
+      {moviesArray.map((movie) => (
+        <Movie movie={movie} key={movie.id} />
+      ))}
+    </div>
+  );
+}
+
+export default MovieLists;

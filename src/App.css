@@ -25,3 +25,8 @@
   font-size: 14px;
   line-height: 1.4;
 }
+
+.img {
+  max-width: 300px;
+  max-height: auto;
+}

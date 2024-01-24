@@ -1,17 +1,10 @@
 import "./App.css";
-import MovieList from "./Components/MovieList";
-import Movie from "./Components/Movie";
-import Stars from "./Components/Stars";
-import ReviewList from "./Components/ReviewList";
-import ReviewForm from "./Components/ReviewForm";
+import MovieLists from "./Components/MovieLists";
 
 function App() {
   return (
     <div className="App">
-      <MovieList />
-      <Movie />
-      <Stars />
-      <ReviewForm />
+      <MovieLists />
     </div>
   );
 }

@@ -1,24 +1,28 @@
 import React, { useState } from "react";
 import Stars from "./Stars";
 import ReviewList from "./ReviewList";
-import ReviewForm from "./ReviewForm";
+import ReviewsForm from "./ReviewsForm";
 
-const Movie = ({ title, image, synopsis, rating }) => {
+const Movie = ({ movie }) => {
   const [reviews, setReviews] = useState([]);
 
   const addReview = (review) => {
-    setReviews((prevReviews) => [...prevReviews, review]);
+    setReviews([...reviews, review]);
   };
 
+  let { id, image, title, about, year, rating, length } = movie;
+
+  console.log(id, image, title, about, year, rating, length);
+
   return (
-    <div>
+    <div key={id}>
       <h2>{title}</h2>
-      <img src={image} alt={`${title} Poster`} />
-      <p>{synopsis}</p>
+      <img src={image} className="img" alt={`${title} Poster`} />
+      <p>{about}</p>
       <Stars rating={rating} />
-      <ReviewList reviews={reviews} />
+      <ReviewList reviews={reviews} key={id} />
       {/* Pass the movie title to the ReviewForm */}
-      <ReviewForm addReview={addReview} movieTitle={title} />
+      <ReviewsForm addReview={addReview} movieTitle={title} />
     </div>
   );
 };
