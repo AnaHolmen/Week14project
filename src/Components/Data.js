@@ -14,22 +14,20 @@ let moviesArray = [
   {
     id: "2",
     image:
-      "https://m.media-amazon.com/images/M/MV5BMjE2NDkxNTY2M15BMl5BanBnXkFtZTgwMDc2NzE0MTI@.https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhXf6t0ai0Pd8FAyLaYQ8wQYam5UI_LRYUjA&usqp=CAU_V1_.jpg",
+      "https://m.media-amazon.com/images/I/41vHMbOACzL._AC_UF894,1000_QL80_.jpg",
     title: "Other Women",
     about:
-      "After discovering that her boyfriend is married, Carly meets the wife he's been betraying; when yet another affair is discovered, all three women team up to plot revenge on the three-timing S.O.B.ound by an inescapable blood debt to the Italian crime lord, Santino D'Antonio, and with his precious 1969 Mustang still stolen, John Wick--the taciturn and pitiless assassin who thirsts for seclusion--is forced to visit Italy to honour his promise. But, soon, the Bogeyman will find himself dragged into an impossible task in the heart of Rome's secret criminal society, as every killer in the business dreams of cornering the legendary Wick who now has an enormous price on his head. Drenched in blood and mercilessly hunted down, John Wick can surely forget a peaceful retirement as no one can make it out in one piece. —Nick Riganas",
-    year: "2014",
+      "After discovering that her boyfriend is married, Carly meets the wife he's been betraying; when yet another affair is discovered, all three women team up to plot revenge on the three-timing S.O.B",
+
     rating: "PG-13",
     length: "1h 49min",
   },
   {
     id: "3",
-    image:
-      "https://image.tmdb.org/t/p/original/jeNTqOnhttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKwf0-NdcyYpiDBjQIykz8_3_uJZXtfR-OZA&usqp=CAUux7KSulznSh4UdiDlfmV.jpg",
+    image: "https://m.media-amazon.com/images/I/51SyFdBGprL.jpg",
     title: "13 Going on 30",
     about:
-      "Unpopular schoolgirl Jenna Rink makes an unusual wish on her birthday. Miraculously, her wish comes true and the 13-year-old Jenna wakes up the next day as a 30-year-old woman.drenaline-fueled action franchise, skilled assassin John Wick (Keanu Reeves) returns with a $14 million price tag on his head and an army of bounty-hunting killers on his trail. After killing a member of the shadowy international assassin's guild, the High Table, John Wick is excommunicado, but the world's most ruthless hit men and women await his every turn. -IMDB",
-    year: "2004",
+      "Unpopular schoolgirl Jenna Rink makes an unusual wish on her birthday. Miraculously, her wish comes true and the 13-year-old Jenna wakes up the next day as a 30-year-old woman.",
     rating: "PG-13",
     length: "1h 38in",
   },
