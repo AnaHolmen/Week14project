@@ -31,6 +31,16 @@ let moviesArray = [
     rating: "PG-13",
     length: "1h 38in",
   },
+  {
+    id: "4",
+    image:
+      "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p7886534_p_v12_ai.jpg",
+    title: "Letter to Juilet",
+    about:
+      "Sophie dreams of becoming a writer and travels to Verona, Italy where she meets the Secretaries of Juliet.",
+    rating: "PG",
+    length: "1h 45in",
+  },
 ];
 
 export { moviesArray };
