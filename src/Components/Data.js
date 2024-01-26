@@ -30,6 +30,7 @@ let moviesArray = [
       "Unpopular schoolgirl Jenna Rink makes an unusual wish on her birthday. Miraculously, her wish comes true and the 13-year-old Jenna wakes up the next day as a 30-year-old woman.",
     rating: "PG-13",
     length: "1h 38in",
+    stars: 3,
   },
   {
     id: "4",
@@ -40,6 +41,7 @@ let moviesArray = [
       "Sophie dreams of becoming a writer and travels to Verona, Italy where she meets the Secretaries of Juliet.",
     rating: "PG",
     length: "1h 45in",
+    stars: 4,
   },
 ];
 
