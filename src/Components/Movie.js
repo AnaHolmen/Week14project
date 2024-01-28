@@ -15,9 +15,6 @@ const Movie = ({ movie }) => {
 
   return (
     <div>
-      <h1>Movie Review</h1>
-      <br />
-
       <h2>{title}</h2>
       <img src={image} className="img" alt={`${title} Movie Poster`} />
       <p>{about}</p>
